@@ -1,0 +1,52 @@
+# Unreal Engine .gitignore
+
+# Compiled Binaries
+Binaries/
+DerivedDataCache/
+
+# Intermediate files
+Intermediate/
+
+# Saved data
+Saved/
+
+# Build artifacts
+Build/
+
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# JetBrains Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# User-specific files
+*.user
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dylib
+
+# Plugins (binaries and intermediate)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Asset caches
+**/__ExternalActors__/
+**/__ExternalObjects__/
